@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "aws-sdk": "^2.1556.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoclient": "^1.0.3",
+    "mongoose": "^7.6.0",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "randomstring": "^1.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "name": "r-bi-dash-be",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}
