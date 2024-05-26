@@ -1,3 +1,4 @@
+//model
 const hotelModel = require('../models/hotelModel')
 const userModel = require('../models/login')
 module.exports = async (req,res) =>{
